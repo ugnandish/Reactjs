@@ -1,0 +1,67 @@
+.App {
+  padding: 100px 0;
+}
+.navibar {
+  display: flex;
+  width: 100%;
+  float: left;
+  justify-content: space-between;
+  border-bottom: 2px solid #0000ff;
+  margin: 0 0 50px 0;
+  padding: 0 0 20px 0;
+}
+.navibar_hding h3 {
+  font-size: 28px;
+  margin: 0;
+  line-height: normal;
+  letter-spacing: normal;
+  color: blue;
+}
+.navibar_autorefresh h4 {
+  font-size: 18px;
+  color: blue;
+  margin: 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.inputbox {
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 0 0 30px 0;
+}
+.inputbox input {
+  padding: 10px;
+}
+.twitterprofile_blk {
+  display: flex;
+}
+.twitterprofile_img {
+  margin: 0 20px 0 0;
+}
+.twitterprofile_img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background: #eee;
+}
+.twitterprofile_desc h3 {
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: normal;
+  margin: 0;
+}
+.twitterprofile_blk {
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  margin: 0 0 15px 0;
+  padding: 10px;
+}
+.twitterprofile_name, .twitterprofile_sname, .twitterprofile_time {
+  font-size: 14px;
+  color: #4a4a49;
+}
+.twitterprofile_name, .twitterprofile_sname {
+  margin: 0 30px 0 0;
+}
